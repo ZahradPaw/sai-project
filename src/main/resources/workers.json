@@ -1,0 +1,32 @@
+{
+  "workers": [
+    {
+      "id": "W1",
+      "name": "Иванов",
+      "skill": "turner",
+      "shiftStart": 0,
+      "shiftEnd": 480
+    },
+    {
+      "id": "W2",
+      "name": "Петров",
+      "skill": "turner",
+      "shiftStart": 0,
+      "shiftEnd": 480
+    },
+    {
+      "id": "W3",
+      "name": "Сидоров",
+      "skill": "miller",
+      "shiftStart": 0,
+      "shiftEnd": 480
+    },
+    {
+      "id": "W4",
+      "name": "Кузнецов",
+      "skill": "driller",
+      "shiftStart": 0,
+      "shiftEnd": 480
+    }
+  ]
+}

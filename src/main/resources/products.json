@@ -1,0 +1,31 @@
+{
+  "products": [
+    {
+      "id": "PR1",
+      "name": "Редуктор",
+      "dueDate": 130,
+      "partIds": [
+        "P1",
+        "P2"
+      ]
+    },
+    {
+      "id": "PR2",
+      "name": "Насос",
+      "dueDate": 160,
+      "partIds": [
+        "P1",
+        "P3"
+      ]
+    },
+    {
+      "id": "PR3",
+      "name": "Муфта",
+      "dueDate": 140,
+      "partIds": [
+        "P2",
+        "P3"
+      ]
+    }
+  ]
+}

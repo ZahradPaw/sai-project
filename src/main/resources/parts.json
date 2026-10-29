@@ -1,0 +1,78 @@
+{
+  "parts": [
+    {
+      "id": "P1",
+      "name": "Вал",
+      "operations": [
+        {
+          "id": "OP1",
+          "name": "Точение",
+          "requiredMachineType": "lathe",
+          "requiredSkill": "turner",
+          "duration": 40,
+          "setupTime": 5
+        },
+        {
+          "id": "OP2",
+          "name": "Фрезеровка",
+          "requiredMachineType": "mill",
+          "requiredSkill": "miller",
+          "duration": 30,
+          "setupTime": 5
+        }
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "Корпус",
+      "operations": [
+        {
+          "id": "OP3",
+          "name": "Сверление",
+          "requiredMachineType": "drill",
+          "requiredSkill": "driller",
+          "duration": 35,
+          "setupTime": 5
+        },
+        {
+          "id": "OP4",
+          "name": "Точение",
+          "requiredMachineType": "lathe",
+          "requiredSkill": "turner",
+          "duration": 50,
+          "setupTime": 5
+        }
+      ]
+    },
+    {
+      "id": "P3",
+      "name": "Крышка",
+      "operations": [
+        {
+          "id": "OP5",
+          "name": "Точение",
+          "requiredMachineType": "lathe",
+          "requiredSkill": "turner",
+          "duration": 45,
+          "setupTime": 5
+        },
+        {
+          "id": "OP6",
+          "name": "Сверление",
+          "requiredMachineType": "drill",
+          "requiredSkill": "driller",
+          "duration": 25,
+          "setupTime": 5
+        },
+        {
+          "id": "OP7",
+          "name": "Фрезеровка",
+          "requiredMachineType": "mill",
+          "requiredSkill": "miller",
+          "duration": 20,
+          "setupTime": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "machines": [
+    {
+      "id": "M1",
+      "type": "lathe",
+      "workStart": 0,
+      "workEnd": 480
+    },
+    {
+      "id": "M2",
+      "type": "lathe",
+      "workStart": 0,
+      "workEnd": 480
+    },
+    {
+      "id": "M3",
+      "type": "mill",
+      "workStart": 0,
+      "workEnd": 480
+    },
+    {
+      "id": "M4",
+      "type": "drill",
+      "workStart": 0,
+      "workEnd": 480
+    }
+  ]
+}
