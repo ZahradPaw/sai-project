@@ -25,5 +25,5 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: production-planner-jar
-        path: target/*.jar
+        path: target/*-jar-with-dependencies.jar
         retention-days: 7

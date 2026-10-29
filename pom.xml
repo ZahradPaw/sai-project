@@ -46,7 +46,7 @@
             <version>2.15.2</version>
         </dependency>
     </dependencies>
-    
+
     <build>
         <plugins>
             <plugin>
@@ -55,7 +55,7 @@
                 <version>3.7.1</version>
                 <configuration>
                     <descriptorRefs>
-                        <descriptorRef>build</descriptorRef>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
                     </descriptorRefs>
                     <archive>
                         <manifest>
