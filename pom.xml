@@ -46,5 +46,39 @@
             <version>2.15.2</version>
         </dependency>
     </dependencies>
-
+    <build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-assembly-plugin</artifactId>
+            <version>3.7.1</version>
+            <configuration>
+                <archive>
+                    <manifest>
+                        <mainClass>org.example.Main</mainClass>
+                        </manifest>
+                    </archive>
+                    <dependencySets>
+                        <dependencySet>
+                            <useProjectArtifact>true</useProjectArtifact>
+                            <useTransitiveDependencies>true</useTransitiveDependencies>
+                            <unpack>true</unpack>
+                            <includes>
+                                <include>com.tilab.jade:jade</include>
+                            </includes>
+                        </dependencySet>
+                    </dependencySets>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>make-assembly</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 </project>
