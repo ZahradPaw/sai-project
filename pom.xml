@@ -20,8 +20,6 @@
             <groupId>com.tilab.jade</groupId>
             <artifactId>jade</artifactId>
             <version>4.6.0</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/lib/jade.jar</systemPath>
         </dependency>
         <!--  Lombok  -->
         <dependency>
